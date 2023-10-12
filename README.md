@@ -27,11 +27,11 @@ AWS Quicksight,
 AWS Snow Family,
 Elastic Beanstalk,
 AWS Transfer Family,
-AWS CLoudFormation
-AWS CICD
-AWS Glue
-Amazon Appflow
-EBS & EFS
-RDS / Amazon Aurora/Elastic Cache
-Amazon S3
+AWS CLoudFormation,
+AWS CICD,
+AWS Glue,
+Amazon Appflow,
+EBS & EFS,
+RDS / Amazon Aurora/Elastic Cache,
+Amazon S3,
 Amazon Redshift
