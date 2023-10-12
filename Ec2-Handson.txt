@@ -3,7 +3,7 @@ Bootstrap Script
 **************************************************************************************
 
 #!/bin/bash
-# Use this for your user data (script from top to bottom)
+# Use this for your user data 
 # install httpd (Linux 2 version)
 yum update -y
 yum install -y httpd
