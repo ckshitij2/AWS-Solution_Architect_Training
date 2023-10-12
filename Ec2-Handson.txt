@@ -1,0 +1,53 @@
+**************************************************************************************
+Bootstrap Script
+**************************************************************************************
+
+#!/bin/bash
+# Use this for your user data (script from top to bottom)
+# install httpd (Linux 2 version)
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
+
+
+
+
+**************************************************************************************
+Connect from Putty to linux instance
+**************************************************************************************
+1. Convert pem file to ppk file using puttygen
+2. Connect to instacne from putty:
+	Host: usernamer@dns --->
+	PORT: 22
+3. Select the ppk file in auth-> credential
+
+
+
+
+
+
+**************************************************************************************
+Connect from Linux via native SSH client to linux instance
+**************************************************************************************
+1. Connect to your local linux machine.
+2. Get the pem file in your machine via Winscp
+3. Connect to your linux via SSH
+
+Command -> ssh -i "Path to identity file " username@domain name 
+
+
+
+
+**************************************************************************************
+Send file from one linux system to another
+**************************************************************************************
+
+You should have your identity file with you at client side.
+
+command -> scp -i "Path to identity file" username@domain:[path at target side]
+
+
+
+
