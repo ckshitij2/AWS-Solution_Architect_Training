@@ -1,5 +1,5 @@
 **************************************************************************************
-Bootstrap Script
+Bootstrap Script--Enable HTTP Traffic.
 **************************************************************************************
 
 #!/bin/bash
@@ -48,6 +48,23 @@ You should have your identity file with you at client side.
 
 command -> scp -i "Path to identity file" username@domain:[path at target side]
 
+
+
+
+
+
+**************************************************************************************
+Create an EC2 AMI with pre-installed ngnix Server
+**************************************************************************************
+
+1. Create An Ec2 instacne with ngnix installed.
+2.Pass commands to your Linux machine.
+  -> sudo su -
+  -> yum update -y
+  -> yum install nginx -y
+  -> sudo service nginx start
+  -> systemctl status nginx.service.
+3. Create an Image with this instance.
 
 
 
