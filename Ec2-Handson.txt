@@ -1,4 +1,19 @@
 **************************************************************************************
+Common Linux commands used!!!
+**************************************************************************************
+
+
+
+1. ls -List directory content
+2. vi file_name - To create a new file in vi text editor
+3. cd - To navigate between directories
+4. mkdir - to create new direcory
+5. rm- to delete a file
+6. rmdir - To delete a directory
+7. whoami- Print the system username
+
+
+**************************************************************************************
 Bootstrap Script--Enable HTTP Traffic.
 **************************************************************************************
 
@@ -63,7 +78,7 @@ Create an EC2 AMI with pre-installed ngnix Server
   -> yum update -y
   -> yum install nginx -y
   -> sudo service nginx start
-  -> systemctl status nginx.service.
+  -> systemctl status nginx.service
 3. Create an Image with this instance.
 
 
